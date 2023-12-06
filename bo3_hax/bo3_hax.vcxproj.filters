@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{8b7c35ac-7cd5-4a28-bb0f-c44b9adb9acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{b4c985ea-68f9-454b-b10c-abe9e30b43db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{5e467e4f-6ef9-4762-b238-dcdc39bf7e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structs">
+      <UniqueIdentifier>{16c8fc30-4102-4afc-abd9-6ac707a87736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\vectors">
+      <UniqueIdentifier>{7e5f0fe4-61b7-431b-85dc-14b8ec1d6b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drawing">
+      <UniqueIdentifier>{a05f3e7b-c19a-44bb-85b2-9d65afd8e4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functions">
+      <UniqueIdentifier>{fd2388f5-3f9a-43df-a889-e14ec6c05ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="esp">
+      <UniqueIdentifier>{574bc4d1-1596-4fb4-8b69-7f8d82c53565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aimbot">
+      <UniqueIdentifier>{4d075fbe-a723-4c79-aa82-961b6502da85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{8d159541-de79-4d32-a60b-310f6c4ea3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\menu base">
+      <UniqueIdentifier>{e94ce8d2-07ce-46fe-8fe2-ab5520344059}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>structs</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>esp</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="base.cpp">
+      <Filter>menu\menu base</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>structs</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>tools\vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>functions</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>esp</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>menu\menu base</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Ini.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
